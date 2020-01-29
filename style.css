@@ -95,9 +95,10 @@ a {
 .block, .block2, .block3 {
 	width: 300px;
 	height: 250px;
-	background-color: silver;
+	background-color: white;
 	margin-left: 210px;
 	float: left;
+	border-radius: 20px;
 }
 .block:hover, .block2:hover, .block3:hover {
 	box-shadow: 1px 1px 10px 1px black; 
