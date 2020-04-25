@@ -138,12 +138,14 @@ footer {
 
     .main {
         width: 110%;
-        height: 2100px;
-        background-attachment:scroll;
-        background-position: center;
+        height: 1900px;
+        background-attachment: local;
+        background-position: left;
         background-size: cover;
+        overflow: hidden;
         border-radius: 10px;
     }
+
     .main-text, .main-mid {
         text-align: center;
         padding-top: 450px;
@@ -170,12 +172,17 @@ footer {
 
     .title {
         font-size: 60px;
-        padding: 50px 0px 100px 0px;
+        padding: 50px 0px 100px 80px;
     }
     .about {
         font-size: 33px;
-        padding: 0px 0px 100px 30px;
-        text-align: center;
+        padding: 0px 0px 100px 45px;
+        text-align: left;
+    }
+
+    span {
+        background-color: #ffffcc;
+        line-height: 1.6;
     }
 
     .links {
@@ -229,3 +236,10 @@ footer {
     }
 
 }
+
+
+
+
+
+
+
